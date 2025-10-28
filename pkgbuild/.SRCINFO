@@ -1,0 +1,26 @@
+pkgbase = lib32-wayland
+	pkgdesc = A computer display server protocol
+	pkgver = 1.24.0
+	pkgrel = 1
+	url = https://wayland.freedesktop.org
+	arch = x86_64
+	license = MIT
+	makedepends = meson
+	depends = lib32-glibc
+	depends = lib32-libffi
+	depends = lib32-expat
+	depends = lib32-libxml2
+	depends = wayland
+	provides = libwayland-client.so
+	provides = libwayland-cursor.so
+	provides = libwayland-egl.so
+	provides = libwayland-server.so
+	source = https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.24.0/downloads/wayland-1.24.0.tar.xz
+	source = https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.24.0/downloads/wayland-1.24.0.tar.xz.sig
+	validpgpkeys = C7223EBE4EF66513B892598911A30156E0E67611
+	validpgpkeys = C0066D7DB8E9AC6844D728715E54498E697F11D7
+	validpgpkeys = 34FF9526CFEF0E97A340E2E40FDE7BE0E88F5E48
+	b2sums = 7ac6ac1f33cb2cae60e4058478655eeabd4f8f8e0fe07f6b9b386967ed4b31bdaac571dc2b812f3189534e3e53797822ca39f829207e45c24b494f039f82a836
+	b2sums = SKIP
+
+pkgname = lib32-wayland
